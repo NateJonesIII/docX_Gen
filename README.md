@@ -4,8 +4,9 @@
 
 Welcome to the **DocX User Credentials Generator**! This Python script is designed to quickly generate a "Welcome" word document in docX format for [Company Name] employee user accounts. With its intuitive interface and robust functionality, this tool simplifies the process of generating user credentials, ensuring efficiency and accuracy in document creation.
 
-## Table of Contents
+## Table of Contents:
 
+- [Preview](#preview)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
@@ -14,9 +15,18 @@ Welcome to the **DocX User Credentials Generator**! This Python script is design
 - [Technologies](#technologies)
 - [Methodologies](#methodologies)
 - [Code Snippets](#code-snippets)
+- [Ouput](#ouput)
 - [Creator](#creator)
 
-## Installation
+## Preview
+
+<img width="500" alt="GUI" src="https://github.com/NateJonesIII/docX_Gen/blob/main/assets/img/GUI.PNG">
+
+<img width="500" alt="Success Message" src="https://github.com/NateJonesIII/docX_Gen/blob/main/assets/img/GUI_Success.PNG">
+
+<img width="500" alt="WordDoc" src="https://github.com/NateJonesIII/docX_Gen/blob/main/assets/img/Word_Doc.PNG">
+
+## Installation:
 
 To install and run the **DocX User Credentials Generator**, follow these steps:
 
@@ -24,21 +34,21 @@ To install and run the **DocX User Credentials Generator**, follow these steps:
 2. Navigate to the project directory.
 3. Run the Python script `docX_Gen.py`.
 
-## Usage
+## Usage:
 
 To generate user credentials using the **DocX User Credentials Generator**:
 
 1. Enter the user's first name, last name, and password in the corresponding fields.
 2. Click the "Generate DocX" button to create a Word document with the user's credentials.
 
-## Features
+## Features:
 
 **Libraries Used:**
 
 - `tkinter`: Provides the graphical user interface (GUI) for the application, including text entry fields and buttons.
 - `docx`: Facilitates the creation and manipulation of Word documents, allowing for the generation of user credentials.
 
-## How to Contribute
+## How to :
 
 If you'd like to contribute to the **DocX User Credentials Generator**, feel free to submit a pull request or open an issue on GitHub.
 
@@ -167,9 +177,36 @@ generate_button.pack()
 
 # Start the GUI event loop
 root.mainloop()
+```
+
+## Ouput:
+
+```
+Welcome to [Company Name Here] Test Test 1
+
+
+[Company Name Here]Email: T.Test 1@[compay domain].com
+Desktop Username/Login: T.Test 1
+[Company Name Here] Password: Test2
+[Company Name Here] Username: T.Test 1@[compay domain]
+[Company Name Here] Password: Test2
+
+Voicemail Password is your phone extension followed by a 0
+
+A Technician as completed the following to your workstation:
+
+⚬    Logged in and configured Outlook/Email
+⚬    Logged in and configured MS Teams
+⚬    Logged in and Launched CCC
+⚬    Configured [software], [software], and [software]
+⚬    Installed Default Printers
+⚬    Tested Scanner(If Applicable)
+⚬    Created a desktop icon for email access
+
+Wifi: [SSID]: [Employee password]
 
 ```
 
-## Creator
+## Creator:
 
 - [Profile](https://github.com/NateJonesIII/ "Nathaniel Jones") - [LinkedIn](https://www.linkedin.com/in/nathaniel-jones/) - [Email](mailto:15nate.jones@gmail.com?subject=Hello "Hello Nate!")
