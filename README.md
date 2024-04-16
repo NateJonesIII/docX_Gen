@@ -20,7 +20,7 @@ Welcome to the **DocX User Credentials Generator**! This Python script is design
 
 ## Preview
 
-<img width="500" alt="GUI" src="https://github.com/NateJonesIII/docX_Gen/blob/main/assets/img/GUI.PNG">
+<img width="500" height="300" alt="GUI" src="https://github.com/NateJonesIII/docX_Gen/blob/main/assets/img/GUI.PNG">
 
 <img width="500" alt="Success Message" src="https://github.com/NateJonesIII/docX_Gen/blob/main/assets/img/GUI_Success.PNG">
 
