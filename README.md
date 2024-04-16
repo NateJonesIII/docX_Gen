@@ -48,9 +48,9 @@ To generate user credentials using the **DocX User Credentials Generator**:
 - `tkinter`: Provides the graphical user interface (GUI) for the application, including text entry fields and buttons.
 - `docx`: Facilitates the creation and manipulation of Word documents, allowing for the generation of user credentials.
 
-## How to :
+## How to Contribute:
 
-If you'd like to contribute to the **DocX User Credentials Generator**, feel free to submit a pull request or open an issue on GitHub.
+- If you'd like to contribute to the **DocX User Credentials Generator**, feel free to submit a pull request or open an issue on GitHub.
 
 ## Testing:
 
@@ -74,7 +74,7 @@ To ensure the reliability and accuracy of the **DocX User Credentials Generator*
 
 ## Code Snippets:
 
-    **Setup.py**
+### Setup.py
 
 ```
 from cx_Freeze import setup, Executable
@@ -92,7 +92,7 @@ setup(
 )
 ```
 
-    **docX_Gen.py(main.py)
+### docX_Gen.py(main.py)
 
 ```
 # Python Imports
@@ -180,6 +180,8 @@ root.mainloop()
 ```
 
 ## Ouput:
+
+### Word Doc
 
 ```
 Welcome to [Company Name Here] Test Test 1
