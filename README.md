@@ -86,7 +86,7 @@ executables = [Executable("docX_Gen.py")]
 setup(
     name="docX_Gen",
     version="1.0",
-    description="Created to quickly generate Wecome to Classic Collision docX for Classic employee user accounts.",
+    description="Created to quickly generate Wecome to [Compnay Name] docX for [Compnay Name] employee user accounts.",
     options={'build_exe': {'packages': ['tkinter']}},
     executables=executables
 )
@@ -122,7 +122,7 @@ def generate_document():
     doc.add_heading(f'Welcome to [Company Name Here] {first_name} {last_name}', level=1)
     doc.add_paragraph("")  # Empty line
     doc.add_paragraph("")  # Empty line
-    doc.add_paragraph(f"[Company Name Here]Email: {first_initial}.{last_name}@classiccollision.com")
+    doc.add_paragraph(f"[Company Name Here]Email: {first_initial}.{last_name}@[Company Domain]")
     doc.add_paragraph(f"Desktop Username/Login: {first_initial}.{last_name}")
     doc.add_paragraph(f"[Company Name Here] Password: {password}")
     # More content...
@@ -199,7 +199,7 @@ A Technician as completed the following to your workstation:
 
 ⚬    Logged in and configured Outlook/Email
 ⚬    Logged in and configured MS Teams
-⚬    Logged in and Launched CCC
+⚬    Logged in and Launched [Application]
 ⚬    Configured [software], [software], and [software]
 ⚬    Installed Default Printers
 ⚬    Tested Scanner(If Applicable)
