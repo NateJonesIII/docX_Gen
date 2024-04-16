@@ -1,4 +1,4 @@
-# <DocX User Credentials Generator>
+# DocX User Credentials Generator
 
 ## Description
 
